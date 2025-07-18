@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef;
+  padding: 20px;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+form p {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
+
+#results {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#weight-guide {
+  margin-top: 20px;
+}
